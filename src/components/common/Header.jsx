@@ -2,7 +2,7 @@ import { useSelector } from 'react-redux';
 import { NavLink } from 'react-router';
 
 const Header = () => {
-  const myCount = useSelector(store => store.counterStore.count)
+  // const myCount = useSelector(store => store.counterStore.count)
   const cart = useSelector(store => store.cartStore.cart)
   return (
     <>
@@ -12,8 +12,8 @@ const Header = () => {
             to='/'
             className='flex items-center space-x-3 rtl:space-x-reverse'
           >
-            <span className='self-center text-xl text-heading font-semibold whitespace-nowrap'>
-              LOGO
+            <span className='self-center text-xl text-heading  whitespace-nowrap text-red-600 font-bold hover:text-red-400'>
+              Bucket-List
             </span>
           </NavLink>
           <button

@@ -6,8 +6,8 @@ const Footer = () => {
           <div className='mb-6 md:mb-0'>
             <a href='/' className='flex items-center'>
               
-              <span className='text-heading self-center text-2xl font-semibold whitespace-nowrap'>
-                LOGO
+              <span className='text-heading self-center text-2xl font-semibold whitespace-nowrap text-red-600'>
+                Bucket-List
               </span>
             </a>
           </div>
@@ -78,8 +78,8 @@ const Footer = () => {
         <div className='sm:flex sm:items-center sm:justify-between'>
           <span className='text-sm text-body sm:text-center'>
             © 2023{' '}
-            <a href='/' className='hover:underline'>
-              LOGO™
+            <a href='/' className='hover:underline text-red-600'>
+              Bucket-List™
             </a>
             . All Rights Reserved.
           </span>
