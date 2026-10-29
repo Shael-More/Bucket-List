@@ -1,5 +1,5 @@
 import {
-  createBrowserRouter,
+  createHashRouter,
   createRoutesFromElements,
   Route,
   RouterProvider,
@@ -10,7 +10,7 @@ import Cart from './components/pages/Cart';
 import { Provider } from 'react-redux';
 import { store } from './redux/store';
 
-const router = createBrowserRouter(
+const router = createHashRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout />}>
       <Route index element={<Home />} />
